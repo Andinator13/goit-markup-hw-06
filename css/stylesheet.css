@@ -80,3 +80,7 @@ img {
   display: flex;
   align-items: center;
 }
+
+.nav-page {
+  display: none;
+}
