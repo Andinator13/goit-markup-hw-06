@@ -99,6 +99,7 @@ img {
   color: #4d5ae5;
   padding: 16px 0;
   display: block;
+  margin-right: 120px;
 }
 
 .logo-span {
@@ -140,5 +141,14 @@ img {
   .nav-list {
     display: flex;
     gap: 40px;
+  }
+
+  .header-address {
+    display: block;
+  }
+
+  .nav-page {
+    display: flex;
+    align-items: center;
   }
 }
