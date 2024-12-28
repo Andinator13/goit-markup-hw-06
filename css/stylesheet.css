@@ -226,3 +226,15 @@ img {
     color: #404bbf;
   }
 }
+
+@media screen and (min-width: 1158px) {
+  .address-list {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .logo {
+    margin-right: 76px;
+  }
+}
