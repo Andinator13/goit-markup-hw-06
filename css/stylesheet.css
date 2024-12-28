@@ -228,13 +228,20 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
+  .logo {
+    margin-right: 76px;
+  }
+
   .address-list {
     display: flex;
     flex-direction: row;
-    gap: 12px;
+    gap: 40px;
   }
 
-  .logo {
-    margin-right: 76px;
+  .address-link {
+    padding: 24px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 }
