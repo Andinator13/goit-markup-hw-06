@@ -136,4 +136,9 @@ img {
   .burger-btn {
     display: none;
   }
+
+  .nav-list {
+    display: flex;
+    gap: 40px;
+  }
 }
