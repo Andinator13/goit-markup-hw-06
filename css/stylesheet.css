@@ -120,3 +120,14 @@ img {
 .footer .logo-span {
   color: #f4f4fd;
 }
+
+.burger-btn {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+
+.burger-icon {
+  display: block;
+  fill: #2f2f37;
+}
