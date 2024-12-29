@@ -256,7 +256,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/bg-hero.jpg);
+    url(../images/hero/bg-hero-mobile@2x.jpg);
   background-repeat: no-repeat;
   max-width: 1440px;
   background-size: cover;
@@ -313,5 +313,12 @@ img {
     font-size: 56px;
     line-height: 1.07;
     margin-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url(../images/hero/bg-hero-desktop.jpg);
+    background-size: cover;
   }
 }
