@@ -379,6 +379,16 @@ img {
 
 /* Benefits */
 
+.benefits-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
 .benefits-div {
   display: none;
 }
@@ -416,6 +426,18 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
+  .benefits-list {
+    display: flex;
+    gap: 24px;
+  }
+  .benefits-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .benefits-item:last-child {
+    margin-right: 0;
+  }
+
   .benefits-sub-heading {
     font-weight: 500;
     font-size: 20px;
