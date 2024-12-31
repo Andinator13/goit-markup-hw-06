@@ -794,6 +794,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1158px) {
+  .portfolio-item {
+    width: calc((100% - 2 * 24px) / 3);
+  }
+}
+
 /* Footer */
 
 .footer {
