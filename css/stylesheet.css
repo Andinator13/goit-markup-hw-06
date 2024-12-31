@@ -406,6 +406,11 @@ img {
   display: none;
 }
 
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .benefits-sub-heading {
   font-weight: 500;
   font-size: 36px;
@@ -425,6 +430,10 @@ img {
   margin-bottom: 72px;
   
 }
+
+.benefits-item:last-child {
+    margin-bottom: 0;
+  }
 
 @media screen and (min-width: 768px) {
   .benefits-sub-heading {
