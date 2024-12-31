@@ -8,8 +8,7 @@ h1,
 h2,
 h3,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 a {
@@ -313,12 +312,11 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  
   .hero {
     padding-top: 112px;
     padding-bottom: 112px;
   }
-  
+
   .main-heading {
     font-size: 56px;
     line-height: 1.07;
@@ -428,12 +426,11 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   margin-bottom: 72px;
-  
 }
 
 .benefits-item:last-child {
-    margin-bottom: 0;
-  }
+  margin-bottom: 0;
+}
 
 @media screen and (min-width: 768px) {
   .benefits-sub-heading {
@@ -503,7 +500,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-          }
+  }
 
   .benefits-paragraph {
     font-weight: 400;
@@ -617,7 +614,7 @@ img {
   .team-item {
     width: calc((100% - 24px) / 2);
   }
-
+}
 
 @media screen and (min-width: 1158px) {
   .team-container {
@@ -706,7 +703,7 @@ img {
   }
 }
 
-/* Our Portfolio */ 
+/* Our Portfolio */
 
 .portfolio-container {
   padding: 32px 16px;
@@ -725,3 +722,10 @@ img {
   margin-bottom: 72px;
 }
 
+/* Footer */
+
+.footer {
+  background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
