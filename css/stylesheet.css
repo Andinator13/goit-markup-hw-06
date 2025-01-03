@@ -854,7 +854,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .footer-container {
-    max-width: 768px;
+    min-width: 768px;
     flex-direction: row;
     padding-left: 108px;
     padding-right: 108px;
@@ -900,10 +900,6 @@ img {
   .footer-paragraph {
     width: 264px;
     margin-bottom: 72px;
-  }
-
-  .footer-social {
-    justify-self: none;
   }
 }
 
@@ -1044,11 +1040,8 @@ img {
 
 @media screen and (min-width: 768px) {
   .btn-tablet {
-    display: flex;
-  }
-
-  .form-button {
-    margin-left: 24px;
+    flex-direction: row;
+    gap: 24px;
   }
 }
 
