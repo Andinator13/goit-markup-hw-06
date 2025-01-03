@@ -260,7 +260,7 @@ img {
   background-size: cover;
   background-position: 50% 50%;
   margin: 0 auto;
-  width: 320px;
+  max-width: 320px;
   height: auto;
 }
 
@@ -339,7 +339,7 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero/bg-hero-tablet.jpg);
-    width: 768px;
+    max-width: 768px;
   }
 }
 
@@ -361,7 +361,7 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero/bg-hero-desktop.jpg);
-    width: 1440px;
+    max-width: 1440px;
   }
 }
 
