@@ -432,6 +432,7 @@ img {
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: left;
     margin-bottom: 8px;
   }
 
@@ -441,16 +442,17 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 72px;
   }
 
   .benefits-list {
     display: flex;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 72px;
     flex-direction: row;
     flex-wrap: wrap;
   }
   .benefits-item {
+    margin-bottom: 0;
     width: calc((100% - 24px) / 2);
   }
 
@@ -1267,12 +1269,6 @@ img {
   margin-bottom: 4px;
 }
 
-@media screen and (min-width: 768px) {
-  .label-modal-form {
-    display: block;
-  }
-}
-
 .modal-input-container {
   position: relative;
 }
@@ -1363,6 +1359,13 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-span {
+    width: 16px;
+    height: 16px;
+  }
 }
 
 .input-modal-form:focus + .modal-svg {
