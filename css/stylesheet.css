@@ -249,8 +249,8 @@ img {
 
 .hero {
   background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 72px;
+  padding-bottom: 72px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -415,6 +415,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.benefits-item {
   margin-bottom: 72px;
 }
 
@@ -526,6 +529,7 @@ img {
 .team-list {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 72px;
 }
 
@@ -821,6 +825,10 @@ img {
   color: #f4f4fd;
 }
 
+.footer-logo-container {
+  margin-bottom: 72px;
+}
+
 @media screen and (min-width: 768px) {
   .footer-logo {
     display: inline-block;
@@ -878,11 +886,14 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 288px;
-  margin-bottom: 72px;
 }
 
 .footer-social {
   justify-self: center;
+  margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -913,7 +924,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 16px;
   text-align: center;
 }
 
@@ -926,7 +936,6 @@ img {
 .footer-social-list {
   display: flex;
   gap: 16px;
-  margin-bottom: 72px;
 }
 
 .footer-social-item {
@@ -954,13 +963,18 @@ img {
   fill: #f4f4fd;
 }
 
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .form-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 16px;
   text-align: center;
 }
 
@@ -970,12 +984,17 @@ img {
   }
 }
 
+.btn-tablet {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .input-form {
   border: 1px solid #fff;
   border-radius: 4px;
   width: 288px;
   height: 40px;
-  margin-bottom: 16px;
   background-color: transparent;
   font-weight: 400;
   font-size: 12px;
